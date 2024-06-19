@@ -1,0 +1,72 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 450px;
+}
+
+h1 {
+  color: #0d255b;
+  font-weight: 900 !important;
+}
+
+.todo-container {
+  max-width: 400px;
+}
+
+.todo-container div {
+  margin-top: 50px;
+  display: flex;
+}
+
+input[type="text"] {
+  width: calc(100% - 70px);
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #0c358d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#del {
+  padding: 5px 10px;
+  background-color: #ad0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  text-transform: lowercase;
+  font-weight: 900;
+  margin-left: 25px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

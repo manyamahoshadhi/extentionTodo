@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Todo List",
+  "version": "1.0",
+  "description": "Simple to-do list extension",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png"
+  }
+}
